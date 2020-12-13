@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assistive Vision using Deep Learning</title>
+    <link rel="stylesheet" href="../static/css/about.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Baloo+Bhai+2:wght@600&family=Oswald:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav id="navbar">
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="{{ url_for('about') }}">About Us</a></li>
+            <li><a href="{{ url_for('contact') }}">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <section id="about-section">
+        <h1 class="h-primary center">Who We Are</h1>
+        <p>
+            We are final year undergrades of ECE branch at Maharaja Surajmal Institute of Technology, New Delhi
+            <br>
+            We aim to benefit the society with our knowledge of ML/AI/Deep-Learning and various other cutting edge
+            technologies
+        </p>
+        <div id="members">
+            <div class="about-item">
+                <img src="../static/about1.jpg" alt="Find Us At">
+                <h3 class="names center">Rahul Singh Maures</h3>
+            </div>
+
+            <div class="about-item">
+                <img src="../static/about2.jpg" alt="Find Us At">
+                <h3 class="names center">Shubham Kargeti</h3>
+            </div>
+
+            <div class="about-item">
+                <img src="../static/about3.jpg" alt="Find Us At">
+                <h3 class="names center">Ajay Singh Panwar</h3>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="center">
+            Copyright &copy; SAM.com | All rights reserved
+        </div>
+    </footer>
+</body>

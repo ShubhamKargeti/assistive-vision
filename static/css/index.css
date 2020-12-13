@@ -1,0 +1,122 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#navbar{
+    background-color: #41555a;
+}
+
+#navbar ul{
+    display: flex;
+    padding: 15px 50px;
+}
+
+#navbar ul li{
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+#navbar ul li a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 3px 8px;
+    margin: 10px;
+}
+
+#navbar ul li a:hover
+{
+    color: black;
+    background-color: white;
+}
+
+#intro-section
+{
+    display: flex;
+    flex-direction: column;
+}
+
+#intro-section::before{
+    position: absolute;  
+    content: "";
+    background: url("../bg.png") no-repeat center center/cover;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    opacity: 0.7;
+}
+
+#intro-section .box{
+    /* border: 2px solid black; */
+    padding: 40px;
+    margin: 5px 250px;
+    border-radius: 15px;
+    margin-bottom: 25px;
+}
+
+#intro-section .box h3{
+    margin: 8px;
+    padding: 15px;
+    font-family: 'Bree Serif', serif;
+    font-size: 35px;
+    text-align: center;
+}
+
+#intro-section .box p{
+    font-family: 'Baloo Bhai 2', cursive;
+    font-size: 22px;
+    margin: 0px 45px;
+    text-align: center;
+}
+
+.btn{
+    display: block;
+    margin: auto;
+    margin-top: 15px;
+    padding: 2px 3px;
+    border: 2px solid black;
+    border-radius: 8px;
+    outline: none;
+}
+
+.myForm #file{
+    display: block;
+    margin: 10px 290px;
+    outline: none;
+    margin-top: 15px;
+}
+
+.myForm #file-capture{
+    display: block;
+    margin: 10px 290px;
+    outline: none;
+    margin-top: 15px;
+}
+
+.myForm label{
+    margin-top: 30px;
+    display: block;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+}
+
+.h-primary
+{
+    font-size: 2.1rem;
+    padding: 28px 0px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.center{
+    text-align: center;
+}
+
+footer{
+    bottom: 0;
+    background: black;
+    color: white;
+    padding: 15px 10px;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assistive Vision using Deep Learning</title>
+    <link rel="stylesheet" href="../static/css/index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav id="navbar">
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="{{ url_for('about') }}">About Us</a></li>
+            <li><a href="{{ url_for('contact') }}">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <section id="intro-section">
+        <h1 class="h-primary center">Assistive Vision For Blind Using Deep Learning</h1>
+        <div class="box">
+            <h3>
+                Welcome to our project
+            </h3>
+            <p>
+                This project is an application of "Image Captioning". This project shows how we can use image captioning
+                to help blind people so that they know what is happening around them. And this website is the first
+                approach towards it.
+            </p>
+            <form action="{{url_for('after')}}" method='POST' enctype='multipart/form-data'>
+                <div class="myForm">
+                    <label for="image">Upload image</label>
+                    <input type="file" name="file1" id="file" placeholder="Upload">
+                </div>
+                <button class="btn">Let's go</button>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="center">
+            Copyright &copy; SAM.com | All rights reserved
+        </div>
+    </footer>
+</body>
+</html>

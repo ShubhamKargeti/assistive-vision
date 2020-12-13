@@ -1,0 +1,103 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#navbar{
+    background-color: #41555a;
+}
+
+#navbar ul{
+    display: flex;
+    padding: 15px 50px;
+}
+
+#navbar ul li{
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+#navbar ul li a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 3px 8px;
+    margin: 10px;
+}
+
+#navbar ul li a:hover
+{
+    color: black;
+    background-color: white;
+}
+
+#contact-section{
+    top: 0;
+    left: 0;
+    background: #ffefe4;
+    position: relative;
+    height: 560px;
+    width: 100%;
+}
+
+.contact-item{
+    padding: 0px 50px;
+}
+
+.contact-item  img{
+    border-radius: 50%;
+    border: 2px solid #a5a5a5;
+}
+
+.contact-item a{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.linkedin img{
+    border: none;
+    width: 65px;
+    height: 30px;
+}
+
+.insta img{
+    border: none;
+    width: 111px;
+    height: 62px;
+}
+
+
+#members{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 60px;
+}
+
+.h-primary
+{
+    font-size: 2.8rem;
+    padding-top: 15px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.names{
+    margin-top: 10px;
+    font-family: 'Baloo Bhai 2', cursive;
+    color: #ff4400;
+}
+
+.center
+{
+    text-align: center;
+}
+
+footer{
+    bottom: 0;
+    background: black;
+    color: white;
+    padding: 15px 10px;
+}
